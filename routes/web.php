@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use PHPUnit\TextUI\XmlConfiguration\Groups;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,9 +14,20 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/', function () {
     return view('index');
 });
-Route::get('/about', function () {
+Route::get('/About', function () {
     return view('about');
 });
+Route::get('/Fashion', function () {
+    return view('fashion');
+});
+Route::get('/Post', function () {
+    return view('post');
+});
+Route::get('/Blog-Post', function () {
+    return view('about');
+});
+

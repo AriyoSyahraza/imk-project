@@ -59,35 +59,14 @@
                     <ul id="menu" class="menu navbar-nav ">
 
                         <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="/Blog-Post" class="nav-link">Blog Post</a></li>
 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Blog Posts
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-                                <a class="dropdown-item" href="standard-fullwidth.html">Standard Fullwidth</a>
-                                <a class="dropdown-item" href="standard-left-sidebar.html">Standard Left Sidebar</a>
-                                <a class="dropdown-item" href="standard-right-sidebar.html">Standard Right Sidebar</a>
-                            </div>
-                        </li>
+                        <li class="nav-item"><a href="/About" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="/Fashion" class="nav-link">Category</a></li>
 
-                        <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
-                        <li class="nav-item"><a href="fashion.html" class="nav-link">Category</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Post Formats
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
-                                <a class="dropdown-item" href="post-video.html">Video Formats</a>
-                                <a class="dropdown-item" href="post-audio.html">Audio Format</a>
-                                <a class="dropdown-item" href="post-link.html">Quote Format</a>
-                                <a class="dropdown-item" href="post-gallery.html">Gallery Format</a>
-                                <a class="dropdown-item" href="post-image.html">Image Format</a>
-                            </div>
-                        </li>
-                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                        <li class="nav-item"><a href="/Post" class="nav-link">Post Gallery Format</a></li>
+
+                        <li class="nav-item"><a href="/Contact" class="nav-link">Contact</a></li>
                         <li class="nav-item d-lg-none">
                             <div class="search_toggle p-3 d-inline-block bg-white"><i class="ti-search"></i></div>
                         </li>
