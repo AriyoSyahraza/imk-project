@@ -67,6 +67,8 @@
                         <li class="nav-item"><a href="/Post" class="nav-link">Post Gallery Format</a></li>
 
                         <li class="nav-item"><a href="/Contact" class="nav-link">Contact</a></li>
+                        <li class="nav-item"><a href="/Login" class="nav-link">Login</a></li>
+
                         <li class="nav-item d-lg-none">
                             <div class="search_toggle p-3 d-inline-block bg-white"><i class="ti-search"></i></div>
                         </li>

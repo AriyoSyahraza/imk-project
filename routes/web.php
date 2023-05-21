@@ -31,3 +31,13 @@ Route::get('/Blog-Post', function () {
     return view('about');
 });
 
+
+//route controller utnuk auth
+use App\Http\Controllers\AuthController;
+
+Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
+Route::post('/login', [AuthController::class, 'login'])->name('login.submit');
+Route::get('/Sign-Up', [AuthController::class, 'showRegistrationForm'])->name('register');
+Route::post('/Sign-Up', [AuthController::class, 'register'])->name('register.submit');
+
+
