@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\Rule;
+use Illuminate\Support\Facades\Validator;
 
 class AuthController extends Controller
 {
@@ -26,7 +27,7 @@ class AuthController extends Controller
 
         if (Auth::attempt($credentials)) {
             // Login berhasil
-            return redirect()->intended('/dashboard');
+            return redirect()->intended('/');
         } else {
             // Login gagal
             return back()->withErrors(['email' => 'Email atau password salah.']);
@@ -40,13 +41,18 @@ class AuthController extends Controller
 
     public function register(Request $request)
     {
-        $request->validate([
+        $validator = Validator::make($request->all(), [
             'name' => 'required',
             'email' => 'required|email|unique:users',
             'password' => 'required|min:8',
             'confirm_password' => 'required|same:password',
             'agree_terms' => 'required',
         ]);
+    
+        if ($validator->fails()) {
+            // Redirect back with error messages
+            return redirect()->back()->withErrors($validator)->withInput();
+        }
 
         $user = new User();
         $user->name = $request->input('name');
@@ -59,6 +65,14 @@ class AuthController extends Controller
         // Login pengguna setelah registrasi
         Auth::login($user);
 
-        return redirect('/index');
+        return redirect('/');
+
+        
+    }
+
+    public function logout()
+    {
+        Auth::logout();
+        return redirect('/');
     }
 }

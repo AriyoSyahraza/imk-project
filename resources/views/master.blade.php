@@ -9,6 +9,8 @@
 
 <html lang="en">
 
+
+
 <head>
     <meta charset="utf-8">
     <title>Revolve - Personal Magazine blog Template</title>
@@ -67,12 +69,29 @@
                         <li class="nav-item"><a href="/Post" class="nav-link">Post Gallery Format</a></li>
 
                         <li class="nav-item"><a href="/Contact" class="nav-link">Contact</a></li>
-                        <li class="nav-item"><a href="/Login" class="nav-link">Login</a></li>
 
                         <li class="nav-item d-lg-none">
                             <div class="search_toggle p-3 d-inline-block bg-white"><i class="ti-search"></i></div>
                         </li>
-                    </ul>
+                    
+                    
+                    @auth
+                    <!-- Tombol Logout -->
+                    <li class="nav-item">
+                        <form action="{{ route('logout') }}" method="POST">
+                            @csrf
+                            <button type="submit" class="nav-link">Logout</button>
+                        </form>
+                    </li>
+                    @else
+                    <!-- Tombol Login -->
+                    <li class="nav-item">
+                        <a href="{{ route('login') }}" class="nav-link">Login</a>
+                    </li>
+                    @endauth
+
+                </ul>
+                
                 </div>
 
                 <div class="text-right search d-none d-lg-block">

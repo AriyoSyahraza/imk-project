@@ -119,13 +119,13 @@
                     </div>
                     <nav class="post-pagination clearfix border-top border-bottom py-4">
                         <div class="prev-post">
-                            <a href="blog-single.html">
+                            <a href="/Blog-Post">
                                 <span class="text-uppercase font-sm letter-spacing">Next</span>
                                 <h4 class="mt-3"> Intel’s new smart glasses actually look good</h4>
                             </a>
                         </div>
                         <div class="next-post">
-                            <a href="blog-single.html">
+                            <a href="/Blog-Post">
                                 <span class="text-uppercase font-sm letter-spacing">Previous</span>
                                 <h4 class="mt-3">Free Two-Hour Delivery From Whole Foods</h4>
                             </a>
@@ -138,36 +138,36 @@
                         <div class="row">
                             <div class="col-lg-4 col-md-4 col-sm-6">
                                 <div class="post-block-wrapper mb-4 mb-lg-0">
-                                    <a href="blog-single.html">
+                                    <a href="/Blog-Post">
                                         <img class="img-fluid" src="images/fashion/img-1.jpg" alt="post-thumbnail" />
                                     </a>
                                     <div class="post-content mt-3">
                                         <h5>
-                                            <a href="blog-single.html">Intel’s new smart glasses actually look good</a>
+                                            <a href="/Blog-Post">Intel’s new smart glasses actually look good</a>
                                         </h5>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-6">
                                 <div class="post-block-wrapper mb-4 mb-lg-0">
-                                    <a href="blog-single.html">
+                                    <a href="/Blog-Post">
                                         <img class="img-fluid" src="images/fashion/img-2.jpg" alt="post-thumbnail" />
                                     </a>
                                     <div class="post-content mt-3">
                                         <h5>
-                                            <a href="blog-single.html">Free Two-Hour Delivery From Whole Foods</a>
+                                            <a href="/Blog-Post">Free Two-Hour Delivery From Whole Foods</a>
                                         </h5>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-6">
                                 <div class="post-block-wrapper">
-                                    <a href="blog-single.html">
+                                    <a href="/Blog-Post">
                                         <img class="img-fluid" src="images/fashion/img-3.jpg" alt="post-thumbnail" />
                                     </a>
                                     <div class="post-content mt-3">
                                         <h5>
-                                            <a href="blog-single.html">Snow and Freezing Rain in Paris Forces the</a>
+                                            <a href="/Blog-Post">Snow and Freezing Rain in Paris Forces the</a>
                                         </h5>
                                     </div>
                                 </div>
@@ -267,12 +267,12 @@
                                 <h4 class="text-center widget-title">Trending Posts</h4>
 
                                 <div class="sidebar-post-item-big">
-                                    <a href="blog-single.html"><img src="images/news/img-1.jpg" alt=""
+                                    <a href="/Blog-Post"><img src="images/news/img-1.jpg" alt=""
                                             class="img-fluid"></a>
                                     <div class="mt-3 media-body">
                                         <span class="text-muted letter-spacing text-uppercase font-sm">September 10,
                                             2019</span>
-                                        <h4><a href="blog-single.html">Meeting With Clarissa, Founder Of Purple
+                                        <h4><a href="/Blog-Post">Meeting With Clarissa, Founder Of Purple
                                                 Conversation App</a></h4>
                                     </div>
                                 </div>
@@ -282,7 +282,7 @@
                                     <div class="media-body">
                                         <span class="text-muted letter-spacing text-uppercase font-sm">September 10,
                                             2019</span>
-                                        <h4><a href="blog-single.html">Thoughtful living in los Angeles</a></h4>
+                                        <h4><a href="/Blog-Post">Thoughtful living in los Angeles</a></h4>
                                     </div>
                                 </div>
 
@@ -291,7 +291,7 @@
                                     <div class="media-body">
                                         <span class="text-muted letter-spacing text-uppercase font-sm">September 10,
                                             2019</span>
-                                        <h4><a href="blog-single.html">Vivamus molestie gravida turpis.</a></h4>
+                                        <h4><a href="/Blog-Post">Vivamus molestie gravida turpis.</a></h4>
                                     </div>
                                 </div>
                             </div>

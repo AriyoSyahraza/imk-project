@@ -28,7 +28,7 @@ Route::get('/Post', function () {
     return view('post');
 });
 Route::get('/Blog-Post', function () {
-    return view('about');
+    return view('blog-single');
 });
 
 
@@ -39,5 +39,7 @@ Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
 Route::post('/login', [AuthController::class, 'login'])->name('login.submit');
 Route::get('/Sign-Up', [AuthController::class, 'showRegistrationForm'])->name('register');
 Route::post('/Sign-Up', [AuthController::class, 'register'])->name('register.submit');
+Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
+
 
 

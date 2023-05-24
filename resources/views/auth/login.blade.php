@@ -16,7 +16,7 @@
 
 
       <div class="input-box">
-        <input type="text" placeholder="Enter your email" required>
+        <input type="text" name="email" placeholder="Enter your email" required>
       </div>
       <div class="input-box">
         <input type="password" id="password" name="password" placeholder="Password" required>
@@ -24,7 +24,7 @@
         <button type="button" id="hidePassword">Hide</button>
 
       <div class="input-box button">
-        <input type="Submit" value="Login">
+        <input type="submit" value="Login">
       </div>
       <div class="text">
         <h3>Don't have an account? <a href="/Sign-Up">Sign Up</a></h3>
